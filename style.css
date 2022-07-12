@@ -112,13 +112,13 @@ nav {
   width: 90%;
   margin: auto;
   background-color: white;
-  padding: 30px;
+  padding: 35px;
   left: 0;
   right: 0;
   top: 20%;
   position: absolute;
   z-index: 1;
-  gap: 35px;
+  gap: 40px;
   box-sizing: border-box;
   transition: all .3s ease-in-out;
 }
