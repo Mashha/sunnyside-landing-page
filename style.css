@@ -207,6 +207,7 @@ ul li a {
   font-family: 'Fraunces', serif;
   font-size: 40px;
   letter-spacing: 6px;
+  font-weight: 900;
 }
 
 .icon-arrow {
@@ -347,6 +348,7 @@ ul li a {
    .container h2 {
     font-size: 40px;
     padding-right: 40px;
+    font-weight: 900;
   }
 }
 
