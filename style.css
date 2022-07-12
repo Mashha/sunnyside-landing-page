@@ -327,18 +327,38 @@ ul li a {
     height: 50vw;
   }
 
+
   .one {
     grid-area: area1;
+    text-align: left;
+    width: 65%;
   }
 
   .four {
     grid-area: area4;
+    text-align: left;
+    width: 65%;
   }
 
   .testimonials-inner {
     flex-direction: row;
   }
+
+   .container h2 {
+    font-size: 40px;
+    padding-right: 40px;
+  }
 }
+
+@media (max-width: 900px) {
+  .container h2 {
+    font-size: 30px;
+  }
+  .one, .four {
+    width: 90%;
+  }
+}
+
 
 .grid-container {
   display: grid;
