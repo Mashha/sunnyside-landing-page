@@ -96,12 +96,14 @@ nav {
 
 .toggle .bar1 {
   transform: rotate(45deg) translate(4px, 4px);
+  -webkit-transform: rotate(45deg) translate(4px, 4px);
 }
 .toggle .bar2 {
   opacity: 0;
 }
 .toggle .bar3 {
   transform: rotate(-45deg) translate(6px, -7px);
+  -webkit-transform: rotate(-45deg) translate(6px, -7px);
 }
 
 .list-elements {
